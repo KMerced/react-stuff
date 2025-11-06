@@ -1,0 +1,36 @@
+#main-nav ul {
+    padding-left: 0;
+}
+#main-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#up-arrow {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#main-nav .hide-small {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    #up-arrow {
+        display: none;
+    }
+
+    #main-nav button {
+        display: none;
+    }
+
+    #main-nav .hide-small {
+        display: flex;
+    }
+
+    #main-nav li {
+
+    }
+}

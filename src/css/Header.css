@@ -1,0 +1,8 @@
+#main-header {
+    background: greenyellow;
+    padding: 10px;
+    position: relative;
+}
+#main-header h1 {
+    color: white;
+}

@@ -1,0 +1,28 @@
+#slideshow {
+    position: relative;
+}
+
+#slideshow img {
+    max-width: 100%;
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.arrow {
+    color: black;
+    background: lightgray;
+    text-decoration: none;
+    size: 2em;
+    position: absolute;
+    top: 50%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#right-arrow {
+    left: 5%;
+}
+#left-arrow {
+    right: 5%;
+}
